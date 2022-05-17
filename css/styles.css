@@ -39,7 +39,10 @@ p {
 }
 
 /* Sections */
-
+.reviewheader{
+  font-size: 50px;
+  margin-bottom: 60px;
+}
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
@@ -201,6 +204,60 @@ p {
   padding-top: 50px;
 }
 
+/* poojari ashirvadh */
+
+.re
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .re div
+    {
+        width: 40%;
+        border:2px solid #e91e63;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: justify;
+        background-image: linear-gradient(165deg,#fcf5f7,#fcf5f7,#fcf5f7,#ff4c68);
+        margin-bottom: 40px;
+    }
+    h2
+    {
+        text-align:center;
+    }
+    .name
+    {
+        text-align:right;
+        font-weight: bolder;
+    }
+
+    @media screen and (max-width:780px)
+    {
+
+      .reviewheader{
+        font-size: 50px;
+        margin-top: 60px;
+      }
+        .re div
+        {
+            width:40%;
+        }
+    }
+    @media screen and (max-width:780px)
+    {
+        .re
+        {
+            flex-direction: column;
+            align-items: center;
+        }
+        .re div
+        {
+            width:80%;
+            margin-bottom: 30px;
+        }
+    }
+
 @media only screen and  (max-width: 1028px) {
 
   #title {
@@ -221,5 +278,9 @@ p {
     position: static;
     transform: rotate(0);
     margin:  50px 0;
+  }
+
+  #pricing {
+    padding: 0;
   }
 }
