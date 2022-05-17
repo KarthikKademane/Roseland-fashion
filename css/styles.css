@@ -213,6 +213,7 @@ p {
     text-align: center;
   }
 .big-heading{
+  margin-top: 0;
   font-size: 50px;
 }
 
