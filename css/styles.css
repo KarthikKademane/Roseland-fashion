@@ -290,3 +290,65 @@ p {
     padding: 0;
   }
 }
+
+/* Media queries done by Prajju ;) */
+@media only screen and (max-width:360px) 
+{
+  .navbar-brand 
+  {
+    font-size:2rem;
+    margin-left:-30px;
+  }
+ .big-heading
+ {
+   font-size:40px;
+  text-align: center;
+ }
+}
+@media only screen and (max-width:290px) 
+{
+  .big-heading
+  {
+    font-size:35px;
+ 
+  }
+  #tailorquote 
+  {
+    font-size: 17px;
+  }
+  .navbar-brand 
+  {
+    font-size:1.7rem;
+    margin-left:-25px;
+  }
+}
+@media only screen and (max-width:290px) 
+{
+  .big-heading
+  {
+    font-size:30px;
+ 
+  }
+}
+@media only screen and (max-width:250px)
+{
+  .navbar-brand 
+  {
+    width:100vw;
+    font-size:1.4rem;
+    margin-left:unset;
+    text-align: center;
+  }
+
+  .navbar-toggler-icon
+  {
+    text-align: center;
+    
+  }
+  .navbar-toggler
+  {
+    width:100%;
+  }
+}
+
+
